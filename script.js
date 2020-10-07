@@ -22,6 +22,12 @@ while(confirmLength <= 7 || confirmLength >=129) {
 
 
 
+    var confirmSpecialCharacter = confirm("Press Okay to confirm you would like to include special characters");
+    var confirmNumericCharacter = confirm("Press Okay to confirm if you'd like to include numeric characters");
+    var confirmLowercase  = confirm("Press okay to confirm if you'd like to include lowercase characters");
+    var confirmUppercase = confirm("Press of to confirm if you'd like to include uppercase characters");
+    
+
 
 
 
